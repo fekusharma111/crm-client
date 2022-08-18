@@ -2,7 +2,7 @@ import axios from "axios";
 import { getType } from "../Utils/Common_utils";
 import { API_NOTIFICATION_MESSAGES, SERVICE_URLs } from "../Constants/config"
 // axios Interceptor//
-const API_URL = "http://localhost:3001"; 
+const API_URL = "https://crmneerajbooksapi.herokuapp.com/"; 
 
 //
 const axiosInstance = axios.create({
